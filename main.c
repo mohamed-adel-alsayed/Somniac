@@ -15,7 +15,7 @@ int main(int argc, char** argv)
 
 void display()
 {
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // to clear the buffer from any colors
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // to clear the buffer from any colors to clarify
     glBegin(GL_POINTS);
         glVertex2f(0, 0);
     glEnd();
