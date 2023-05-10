@@ -1,6 +1,18 @@
 #include <GL/glut.h>
 
 void display();
+void Movement();
+void Shooting();
+void EnemySpawning();
+void Scoring();
+void Health();
+void Damage();
+void EnemyHealth();
+void GameOver();
+void PlayerDrawing();
+void Enemy1Drawing();
+void Enemy2Drawing();
+void Enemy3Drawing();
 
 int main(int argc, char** argv)
 {
